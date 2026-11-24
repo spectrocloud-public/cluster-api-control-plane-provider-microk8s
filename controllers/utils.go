@@ -16,7 +16,7 @@ limitations under the License.
 
 package controllers
 
-import clusterv1 "sigs.k8s.io/cluster-api/api/v1beta1"
+import clusterv1 "sigs.k8s.io/cluster-api/api/core/v1beta1"
 
 type SortByCreationTimestamp []clusterv1.Machine
 
